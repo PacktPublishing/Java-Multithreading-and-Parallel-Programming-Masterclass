@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "io.reactivex.rxjava3:rxjava:3.0.9"
+    implementation "com.google.guava:guava:30.1-jre"
+}
